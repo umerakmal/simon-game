@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="main-container">
+            <h1>Simon Says Game</h1>
+            <div class="container">
+                <h3>Press button to start game.</h3>
+                <div class="color-container">
+                    <div class="line-up">
+                        <div class="btn deepOrange" type="button" id="deepOrange">
+                            <p>1</p>
+                        </div>
+                        <div class="btn copper" type="button" id="copper">
+                            <p>2</p>
+                        </div>
+                    </div>
+                    <div class="line-bottom">
+                        <div class="btn scarlet" type="button" id="scarlet">
+                            <p>3</p>
+                        </div>
+                        <div class="btn orange" type="button" id="orange">
+                            <p>4</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>Click to Start Game</button>
+        </div>
+    </div>
+    <div class="instructions">
+        <h2>Instructions:</h2>
+        <ul>
+            <li>One box will blink when the game will start.</li>
+            <li>You have to click on the box to move forward in game.</li>
+            <li>We have to remember the sequence of the boxes blinking and click them in order.</li>
+            <li>Onlyif the sequence is right, the game will progress to the next stage.</li>
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
